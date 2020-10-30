@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Register User</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../fonts/css/all.css">
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <style>
+            form{
+                width: 350px;
+                padding: 20px;
+                margin: auto;
+                border: 1px solid;
+                box-shadow: 2px 2px 4px solid;
+                border-radius: 15px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            label{
+                font-weight: bold;
+            }
+            h1{
+                margin-bottom: 10px;;
+            }
+            p{
+                margin-top: 10px;
+            }
+            div>button>a{
+                color: white;
+            }
+            div>button>a:hover{
+                color: white;
+                text-decoration: none;
+            }
+            a{
+                color: blue;
+            }
+            #input{
+                border-radius: 15px;
+            }
+            #logingoogle{
+                border-radius: 15px;
+            }
+            #register{
+                border-radius: 15px;
+                background-color: blue;
+            }
+            ol{
+               font-size: large;
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                text-decoration: none;
+                color: white;
+            }
+            .breadcrumb-item+.breadcrumb-item::before{
+                content: "";
+            }
+            .breadcrumb{
+                margin-right: -15px;
+                margin-left: -16px;
+            }    
+        </style>
+    </head>
+    <body >
+        <div class="container-fluid">
+            <div>
+                <ol class="breadcrumb" style="background-color: gray;">
+                    <li class="breadcrumb-item"><a href="homeucsi.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item"><a href="how_it_works_ucsi.html">How it works?</a></li>
+                    <li class="breadcrumb-item"><a href="loginucsi.html"><button style="border-radius: 15px;" class="btn btn-primary">Login</button></a></li>
+                    <li class="breadcrumb-item"><a href="registerucsi.html"><button style="border-radius: 15px;" class="btn btn-primary">Register</button></a></li>
+                </ol>
+            </div>
+            <form style="background-color: lightskyblue;">
+                <h1 class="text-center" style="color: blue"><span class="fa fa-user"> Register</span></h1>
+                <div class="form-group">
+                    <label>Add Business Logo</label>
+                    <div>
+                        <input class="form-control-file" type="file" name="Logo" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Business Name</label>
+                    <div>
+                       <input id="input" class="form-control" type="text" name="BusinessName" placeholder="Business Name Here" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="FirstName" placeholder="First Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="LastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Designation</label>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Designation" placeholder="Enter Designation Here" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Mobile Number</label>
+                    <div>
+                        <input id="input" class="form-control" type="tel" name="MobileNo" minlength="10" maxlength="10" placeholder="Mobile Number" >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>WhatsApp Number</label>
+                    <div>
+                        <input id="input" class="form-control" type="tel" name="WhatsAppNo" minlength="10" maxlength="10" placeholder="WhatsApp Number ">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <div>
+                        <input id="input" class="form-control" type="email" name="Email" placeholder="email@example.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Address" placeholder="Enter Your Address">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Website</label><span> (Optional)</span>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Website" placeholder="www.example.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Twitter</label><span> (Optional)</span>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Twitter" placeholder="Twitter URL">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Facebook </label><span> (Optional)</span>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Facebook" placeholder="Facebook URL">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Instagram</label><span> (Optional)</span>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Instagram" placeholder="Instagram URL">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Youtube</label><span> (Optional)</span>
+                    <div>
+                        <input id="input" class="form-control" type="text" name="Youtube" placeholder="Youtube URL">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <div>
+                        <input id="input" class="form-control" type="password" name="Password" placeholder="Enter Password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <div>
+                        <input id="input" class="form-control" type="password" name="ConfirmPassword" placeholder="Confirm Password" required>
+                    </div>
+                </div>
+                <div>
+                    <button  id="register" class="btn btn-primary btn-block"><span class="fa fa-hand-point-right"></span>&nbsp; &nbsp;REGISTER</button>
+                </div>
+                <div>
+                    <p class="text-center"><span>OR</span></p>
+                </div>
+                <div>
+                    <button id="logingoogle" class="btn btn-danger btn-block"><span class="fa fa-google-plus-circle"> G </span><a href="#loginwithgoogle">&nbsp;&nbsp;SIGN UP WITH GOOGLE</a></button>
+                </div>
+                <div>
+                     <p>already register?<a style="color: blue;" href="loginucsi.html"> Login</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

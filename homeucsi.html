@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Home</title>
+       <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+       <link rel="stylesheet" href="../fonts/css/all.css">
+   </head>
+   <style>
+       ol{
+           font-size: large;
+       }
+       a{
+           color: white;
+       }
+       a:hover{
+           text-decoration: none;
+           color: white;
+       }
+       .breadcrumb-item+.breadcrumb-item::before{
+           content: "";
+       }
+       .breadcrumb{
+           margin-right: -15px;
+           margin-left: -16px;
+       }
+       body{
+           background-image: url("../images/bodyimg3.jpg");
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-attachment: fixed;
+           background-size: 60%;
+           background-color:lightblue;
+       }
+       article{
+           width:400px;
+           background-color: gray;
+           height: 420px;
+           position: absolute;
+           right: 300px;
+           top: 150px;
+           border: 1px solid;
+           margin: auto;
+           padding: 20px;
+       }
+       #buttonid{
+           border-radius: 15px;
+           margin-top: 20px;
+       }
+       h1,h5{
+           color: white;
+       }
+       label{
+           margin-left: 15px;
+           color: lightskyblue;
+       }
+   </style>
+   <body>
+       <div class="container-fluid">
+            <div>
+                <ol class="breadcrumb" style="background-color: gray;">
+                    <li class="breadcrumb-item"><a href="homeucsi.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item"><a href="how_it_works_ucsi.html">How it works?</a></li>
+                    <li class="breadcrumb-item"><a href="loginucsi.html"><button style="border-radius: 15px;" class="btn btn-primary">Login</button></a></li>
+                    <li class="breadcrumb-item"><a href="registerucsi.html"><button style="border-radius: 15px;" class="btn btn-primary">Register</button></a></li>
+                </ol>
+            </div>
+            <div>
+                <article>
+                    <h1><b style="color:lightblue">Inspire</b> your clients.</h1>
+                    <h1>Digitally.</h1>
+                    <h5>Dibiz is a <b style="color: lightblue">Digital Business Card</b> that is smart, elegant & affordable.</h5>
+                    <div style="margin-top: 30px;">
+                        <label><span class="fa fa-paint-brush"></span> Easy. Create within minutes</label>
+                        <label><span class="fa fa-image"></span> Impression Rich content</label>
+                        <label><span class="fa fa-share"></span> Share from anywhere & anytime</label>
+                        <label><span class="fa fa-arrow-alt-circle-right"></span> Save trees and contribute to the environment</label>
+                    </div>
+                    <button id="buttonid" class="btn-primary"><span class="fa fa-hand-point-right"></span><a style="color: white;" href="#"> create your own. it's free</a></button>
+                </article>
+            </div>
+            <div>
+                <h1 style="margin-top:540px; color: blue; " class="text-center">Join our community and take your Business Cards to the next level</h1>
+            </div>
+       </div>
+   </body>
+</html>

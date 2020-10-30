@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How it works?</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            ol{
+                font-size: large;
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                text-decoration: none;
+                color: white;
+            }
+            .breadcrumb-item+.breadcrumb-item::before{
+                content: "";
+            }
+            .breadcrumb{
+                margin-right: -15px;
+                margin-left: -16px;
+            }
+            h1{
+                margin-top: 40px;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+                margin-bottom: 30px;
+            }
+            h3,blockquote{
+                color: white;
+            }
+        </style>
+    </head>
+    <body style="background-color: #668cff">
+        <div class="container-fluid">
+            <div>
+                <ol class="breadcrumb" style="background-color: gray;">
+                    <li class="breadcrumb-item"><a href="homeucsi.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item"><a href="#">How it works?</a></li>
+                    <li class="breadcrumb-item"><button style="border-radius: 15px;" class="btn btn-primary"><a href="loginucsi.html">Login</a></button></li>
+                    <li class="breadcrumb-item"><button style="border-radius: 15px;" class="btn btn-primary"><a href="registerucsi.html">Register</a></button></li>
+                </ol>
+            </div>
+            <div>
+                <h1 class="text-center" style="color: white;">How it works?</h1>
+                <div class="row" id="section">
+                    <div class="col-2" id="leftimage">
+                    </div>
+                    <div class="col-3" id="leftimage">
+                        <img src="../images/img_sec1.png" width="200px">
+                        <h3>Create your Own</h3>
+                        <blockquote>it takes 2 minutes.<a style="color:white; text-decoration: underline; "href="registerucsi.html">Click here to begin</a></blockquote>
+                    </div>
+                    <div class="col-3" id="centerimage" >
+                        <img src="../images/img_sec2.png" width="200px">
+                        <h3>Save to your Devics</h3>
+                        <blockquote>is accessible anytime from anywhere</blockquote>
+                    </div>
+                    <div class="col-3" id="rightimage" >
+                        <img src="../images/img_sec3.png" width="200px">
+                        <h3>Share with friends</h3>
+                        <blockquote>through a variety of channels</blockquote>
+                    </div>
+                </div>
+                <div class="text-center col-md-12" style="margin-top: 20px;">
+                    <button id="centerbtn" style="border-radius: 15px; color: white;" class="btn btn-primary ">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
