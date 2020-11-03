@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>How it works?</title>
-        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../Fonts/css/all.css">
+        <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
         <style>
             ol{
                 font-size: large;
@@ -21,53 +23,90 @@
                 margin-right: -15px;
                 margin-left: -16px;
             }
-            h1{
-                margin-top: 40px;
-                font-weight: bold;
-                font-family: 'Times New Roman', Times, serif;
-                margin-bottom: 30px;
+            #footer{
+                text-align: center;
+                font-size: large;
+                background-color: darkcyan;
+                border-radius: 15px;
+                padding: 5px;
+                margin-left: -15px;
+                margin-right:-15px ;
             }
-            h3,blockquote{
-                color: white;
+            #list-tab{
+                border-radius: 20px;
+                border-right: 1px dotted darkcyan;
+            }
+            img{
+                border: 2px solid black;
+            }
+            .col-4{
+                border-right: 1px solid darkcyan;
             }
         </style>
     </head>
-    <body style="background-color: #668cff">
-        <div class="container-fluid">
-            <div>
-                <ol class="breadcrumb" style="background-color: gray;">
-                    <li class="breadcrumb-item"><a href="homeucsi.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Features</a></li>
-                    <li class="breadcrumb-item"><a href="#">How it works?</a></li>
-                    <li class="breadcrumb-item"><button style="border-radius: 15px;" class="btn btn-primary"><a href="loginucsi.html">Login</a></button></li>
-                    <li class="breadcrumb-item"><button style="border-radius: 15px;" class="btn btn-primary"><a href="registerucsi.html">Register</a></button></li>
-                </ol>
-            </div>
-            <div>
-                <h1 class="text-center" style="color: white;">How it works?</h1>
-                <div class="row" id="section">
-                    <div class="col-2" id="leftimage">
-                    </div>
-                    <div class="col-3" id="leftimage">
-                        <img src="../images/img_sec1.png" width="200px">
-                        <h3>Create your Own</h3>
-                        <blockquote>it takes 2 minutes.<a style="color:white; text-decoration: underline; "href="registerucsi.html">Click here to begin</a></blockquote>
-                    </div>
-                    <div class="col-3" id="centerimage" >
-                        <img src="../images/img_sec2.png" width="200px">
-                        <h3>Save to your Devics</h3>
-                        <blockquote>is accessible anytime from anywhere</blockquote>
-                    </div>
-                    <div class="col-3" id="rightimage" >
-                        <img src="../images/img_sec3.png" width="200px">
-                        <h3>Share with friends</h3>
-                        <blockquote>through a variety of channels</blockquote>
-                    </div>
-                </div>
-                <div class="text-center col-md-12" style="margin-top: 20px;">
-                    <button id="centerbtn" style="border-radius: 15px; color: white;" class="btn btn-primary ">Learn More</button>
+    <body class="container-fluid">
+        <div>
+            <ol class="breadcrumb" style="background-color: darkcyan;">
+                <li class="breadcrumb-item"><a href="homeucsi.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="homeucsi.html">Features</a></li>
+                <li class="breadcrumb-item"><a href="#">How it works?</a></li>
+                <li class="breadcrumb-item"><button style="border-radius: 15px;" class="btn btn-primary"><a href="loginucsi.html">Login</a></button></li>
+                <li class="breadcrumb-item"><button style="border-radius: 15px;" class="btn btn-primary"><a href="registerucsi.html">Register</a></button></li>
+            </ol>
+        </div>
+        <div class="text-center">
+            <h1 style="color: darkcyan;">How It Works?</h1>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-danger list-group-item-action active" role="tab" data-toggle="list" href="#step1">Step-1</a>
+                    <a class="list-group-item list-group-item-info list-group-item-action" role="tab" data-toggle="list" href="#step2">Step-2</a>
+                    <a class="list-group-item list-group-item-primary list-group-item-action" role="tab" data-toggle="list" href="#step3">Step-3</a>
                 </div>
             </div>
+            <div class="col-8">
+                <div class="tab-content" id="content-details">
+                    <div class="tab-pane fade show active" id="step1" role="tabpanel">
+                        <h2>Step-1</h2>
+                        <div class="text-center" style="margin-bottom: 10px;">
+                            <img src="../images/sec_img1.png" width="200px" height="280px">
+                        </div>
+                        <p>Create your E-Card
+                            3 simple steps and you've got your very own digital business card:
+                            Create your account
+                            Click here and fill out the form in order to signup to your E-Card account.
+                            Choose a Design
+                            Choose between our selections of beautiful designs. All our templates are mobile and user friendly, look great and are easy to customize. Not sure what to choose? No worries! You can easily switch designs at any time.
+                            Add your Content
+                            E-Card is all about rich content. Besides your contact details and social networks, consider adding a gallery of photos, Youtube videos and custom links so your customers get a rich experience of you!</p>
+                    </div>  
+                    <div class="tab-pane fade" id="step2" role="tabpanel">
+                        <h2>Step-2</h2>
+                        <div class="text-center" style="margin-bottom: 10px;">
+                            <img src="../images/sec_img2.png" width="200px" height="250px">
+                        </div>
+                        <p>Save to your device
+                            Once you're done setting up your E-Card – you will receive a text message with the link to your card. We encourage our users to save the card to the home screen of their mobile device – that way it's accessible from practically anywhere and can easily be shared with others.
+                            Here are instructions on how to save to the home screen for iOS and Android:
+                            - iPhone/iOS users: click here
+                            - Android users: click here</p>
+                    </div>
+                    <div class="tab-pane fade" id="step3" role="tabpanel">
+                        <h2>Step-3</h2>
+                        <div class="text-center" style="margin-bottom: 10px;">
+                            <img src="../images/sec_img3.png">
+                        </div>
+                        <p>Share - Share - Share
+                            Whenever you want to share your E-Card with someone, just open your E-Card and click on the "Share" button on your card.
+                            You will then be able to choose from any of the sharing methods available (SMS, WhatsApp, Email and Facebook).
+                            You can also copy the link to your E-Card and share it just like any other web page.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" style="margin-top: 35px; color: white;">
+            &copy;Copyright-2020, All Right Reserved @Universal Consultancy Service of India.
         </div>
     </body>
 </html>

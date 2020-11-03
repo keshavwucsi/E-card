@@ -24,19 +24,20 @@
            margin-left: -16px;
        }
        body{
-           background-image: url("../images/bodyimg3.jpg");
+           background-image: url("../images/digitalbackground2.jpg");
            background-repeat: no-repeat;
+           background-size: contain;
            background-position: center center;
            background-attachment: fixed;
-           background-size: 60%;
-           background-color:lightblue;
+           background-size: 100%;
+           background-color:darkcyan;
        }
        article{
            width:400px;
-           background-color: gray;
+           background-color: black;
            height: 420px;
            position: absolute;
-           right: 300px;
+           right: 260px;
            top: 150px;
            border: 1px solid;
            margin: auto;
@@ -46,20 +47,71 @@
            border-radius: 15px;
            margin-top: 20px;
        }
-       h1,h5{
+       h1,h5,h3{
            color: white;
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: bold;
        }
        label{
            margin-left: 15px;
-           color: lightskyblue;
+           color: orange;
+       }
+       blockquote{
+           color: white;
+       }
+       #allparagraph{
+           background-color: black;
+           margin-left: -15px;
+           margin-right: -15px;
+           margin-top: 15px;
+           margin-bottom: 0px;
+       }
+       #parahead{
+           color:orange;
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: bold;
+           margin-left: 20px;
+       }
+       #paratext{
+           color: white;
+           margin-left: 120px;
+       }
+       footer{
+           background-color:darkcyan;
+           margin-left: -15px;
+           margin-right: -15px;
+       }
+       form{
+            height: auto;
+            border:2px solid darkcyan;
+            margin:auto;
+            margin-top: 50px;
+            box-shadow: 2px 3px 4px darkcyan;
+            padding: 40px;
+            border-radius: 10px;
+       }
+       .form-row{
+           margin-bottom: 20px;
+       }
+       #footer-label{
+           color: white;
+       }
+       #send{
+           border-radius: 10px;
+       }
+       #footer2{
+           text-align: center;
+           font-size: large;
+           border-radius: 15px;
+           padding: 5px;
        }
    </style>
    <body>
        <div class="container-fluid">
             <div>
-                <ol class="breadcrumb" style="background-color: gray;">
+                <ol class="breadcrumb" style="background-color: darkcyan;">
                     <li class="breadcrumb-item"><a href="homeucsi.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item"><a href="#parahead">Features</a></li>
                     <li class="breadcrumb-item"><a href="how_it_works_ucsi.html">How it works?</a></li>
                     <li class="breadcrumb-item"><a href="loginucsi.html"><button style="border-radius: 15px;" class="btn btn-primary">Login</button></a></li>
                     <li class="breadcrumb-item"><a href="registerucsi.html"><button style="border-radius: 15px;" class="btn btn-primary">Register</button></a></li>
@@ -67,9 +119,9 @@
             </div>
             <div>
                 <article>
-                    <h1><b style="color:lightblue">Inspire</b> your clients.</h1>
+                    <h1><b style="color:blue">Inspire</b> your clients.</h1>
                     <h1>Digitally.</h1>
-                    <h5>Dibiz is a <b style="color: lightblue">Digital Business Card</b> that is smart, elegant & affordable.</h5>
+                    <h5>Dibiz is a <b style="color: blue">Digital Business Card</b> that is smart, elegant & affordable.</h5>
                     <div style="margin-top: 30px;">
                         <label><span class="fa fa-paint-brush"></span> Easy. Create within minutes</label>
                         <label><span class="fa fa-image"></span> Impression Rich content</label>
@@ -80,8 +132,91 @@
                 </article>
             </div>
             <div>
-                <h1 style="margin-top:540px; color: blue; " class="text-center">Join our community and take your Business Cards to the next level</h1>
+                <h1 style="margin-top:540px; color: white; " class="text-center">Join our community and take your Business Cards to the next level</h1>
             </div>
+            <!--Home first ends-->    
+            
+            <div>
+                <h1 id="heading" class="text-center" style="color: white;">How it works?</h1>
+                <div class="row" id="section">
+                    <div class="col-2" id="leftimage">
+                    </div>
+                    <div class="col-3" id="leftimage">
+                        <img src="../images/img_sec1.png" width="200px">
+                        <h3>Create your Own</h3>
+                        <blockquote>it takes 2 minutes.<a style="color:white; text-decoration: underline; "href="registerucsi.html">Click here to begin</a></blockquote>
+                    </div>
+                    <div class="col-3" id="centerimage" >
+                        <img src="../images/img_sec2.png" width="200px">
+                        <h3>Save to your Devics</h3>
+                        <blockquote>is accessible anytime from anywhere</blockquote>
+                    </div>
+                    <div class="col-3" id="rightimage" >
+                        <img src="../images/img_sec3.png" width="200px">
+                        <h3>Share with friends</h3>
+                        <blockquote>through a variety of channels</blockquote>
+                    </div>
+                </div>
+                <div class="text-center col-md-12" style="margin-top: 20px;">
+                    <button id="centerbtn" style="border-radius: 15px; color: white;" class="btn btn-primary ">Learn More</button>
+                </div>
+            </div>
+            <!-- How it works end here -->
+            <div id="allparagraph">
+                <div id="para1">
+                    <h2 id="parahead">Business cards meet the digital age</h2>
+                    <p id="paratext">Design your business card in 2 minutes - it's easy, elegant and free.  E-Card is always in your pocket, never tears and never runs out. Your E- Card can be easily updated with our user-friendly dashboard, so you won't need to re-print a business card again.</p>
+                </div>
+                <div id="para2">
+                    <h2 id="parahead">One business card, endless possibilities</h2>
+                    <p id="paratext">Express yourself in ways never before possible with a business card. You can showcase your work by uploading rich content such as photos, videos and custom links.</p>
+                </div>
+                <div id="para-3">
+                    <h2 id="parahead">Mobility at its finest</h2>
+                    <p id="paratext">The shortest route to your customers is through their mobile phones. Utilize our share options and take your brand viral by sharing your DIBIZ with your clients and friends.</p>
+                </div>
+            </div>
+            <!-- paragraph info ends here-->
+            <footer>
+                <div>
+                    
+                    <form>
+                        <h1>Contact us</h1>
+                        <div class="form-row">
+                            <div class="col">
+                                <label id="footer-label">First Name</label>
+                                <input type="text" class="form-control" name="fname" placeholder="Enter your First name">
+                            </div>
+                            <div class="col">
+                                <label id="footer-label">Last Name</label>
+                                <input type="text" class="form-control" name="lname" placeholder="Enter your Last name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label id="footer-label">Email</label>
+                                <input type="email" class="form-control" name="email" placeholder="Enter your e-mail">
+                            </div>
+                            <div class="col">
+                                <label id="footer-label">Phone</label>
+                                <input type="tel" class="form-control" name="phone" placeholder="Enter phone number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label id="footer-label">Message</label>
+                                <input type="text" class="form-control" name="message" placeholder="your message here...">
+                            </div>                            
+                        </div>
+                        <div class="text-center">
+                            <button id="send" class="btn btn-primary ">Send</button>
+                        </div>
+                        <div id="footer2" style="margin-top: 35px; color: white; background-color: black;">
+                            &copy;Copyright-2020, All Right Reserved @Universal Consultancy Service of India.
+                        </div>
+                    </form>
+                </div>
+            </footer>
        </div>
    </body>
 </html>
