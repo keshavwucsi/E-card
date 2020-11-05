@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visiting Card Template</title>
+        <link rel="stylesheet" href="../UCSI/styles/card1.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../fonts/css/all.css">
+        <style>
+            .breadcrumb-item+.breadcrumb-item::before{
+                content: "";
+            }    
+            #item{
+                margin-left: 140px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <!--leftcol-->
+            </div>
+            <div class="col-4">
+                <div class="div1">
+                    <div id="card1" class="card">
+                        <div class="card-header" style="text-align: center;">
+                            <img class="img" src="../images/sampleLogo.jpg">
+                            <div>
+                                 <h4 id="home" class="card-title">Business Name</h4>
+                                 <hr>
+                                 <p class="card-subtitle"> FULL NAME</p>
+                                 <p class="card-subtitle"> DESIGNATION</p>
+                            </div>         
+                        </div>
+                        <div class="card-body">
+                            <div class="inline" id="inline">
+                                 <button id="btn" class="btn btn-primary"><a href="#"><span class="fa fa-mobile"></span> Call</a></button>
+                                 <button id="btn" class="btn btn-primary"><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></button>
+                                 <button id="btn" class="btn btn-primary"><a href="#"><span class="fa fa-directions"></span> Direction</a></button>
+                            </div>
+                                 <div class="inline" id="inline">
+                                     <button id="btn" class="btn btn-primary"><a href="#"><span class="fa fa-mail-bulk"></span> Mail</a></button>
+                                     <button id="btn" class="btn btn-primary"><a href="#">Website</a></button>
+                                </div>
+                                <div class="bodyinfo">
+                                   <p> <button id="icon" class="btn btn-primary" ><span class="fa fa-mobile"></span></button> <label id="label"> Mobile No</label></p>
+                                   <p> <button id="icon" class="btn btn-primary" ><span class="fab fa-whatsapp"></span></button> <label id="label"> WhatsApp No</label></p>
+                                   <p> <button id="icon" class="btn btn-primary" ><span class="fa fa-mail-bulk"></span></button> <label id="emaillabel"> Email@example.com</label></p>
+                                   <p> <button id="icon" class="btn btn-primary" ><span class="fa fa-directions"></span></button> <label id="label"> Direction</label></p>
+                                   <p> <button id="icon" class="btn btn-primary" ><span class="fa fa-directions"></span></button> <label id="websitelabel"> www.website.com</label></p>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="+91">
+                                    <div class="input-group-append">
+                                        <button  class="btn btn-primary" style="margin-top: -7px;"><span class="input-group-text">share on whatsapp</span></button>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="inline" id="save-share">
+                                <button id="save" class="btn btn-primary">Save To Contact <span class="fa fa-download"></span></button> <button id="share" class="btn btn-primary">Share <span class="fa fa-share"></span></button>
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+                <div style="text-align: center;">    
+                    <div style="background-color: white;">
+                        <h6 id="qrcode">Scan QR Code to downlaod the content details</h6>
+                        <div>
+                            <img  src="../images/qrcode.jpg" width="80px" height="80px" alt="QR Code">
+                        </div>
+                    </div>
+                    <div style="background-color: white; margin-top: 10px;">
+                        <h6 id="aboutus">About Us</h6>
+                        <div>
+                            <p>2020</p>
+                            <p>IT Support, Web Developemt, Digital Marketing</p>
+                        </div>
+                    </div>
+                    <div  style="background-color: white; margin-top: 10px; margin-bottom: 10px;">
+                        <div id="shop-store">
+                            <h6 >
+                                <span id="shoponline">Shop Online</span>
+                                <span id="fromourstore">From Our Store</span>
+                            </h6>
+                        </div>
+                        <div class="card-deck">
+                            <div class="card2">
+                                <div class="card-header">
+                                    <div class="card-img-top">
+                                        <img src="../images/whatsapp.jpg" alt="imglogo" width="90px" height="90px">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p>Bulk WhatsApp Sender</p>
+                                    <label><strike>999</strike>&#8377;</label>
+                                    <label>499 &#8377;</label>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-success"><a style="color: white;" href="#">BUY NOW</a></button>
+                                </div>
+                            </div>
+                            <!--Card 2 end-->
+                            <div class="card2">
+                                <div class="card-header">
+                                    <div class="card-img-top">
+                                        <img src="../images/sampleLogo.jpg" alt="imglogo" width="90px" height="90px">
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p>Digital Signature</p>
+                                    <label><strike>2499</strike>&#8377;</label>
+                                    <label>999 &#8377;</label>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-success"><a style="color: white;" href="#">BUY NOW</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background-color: white; margin-top: 10px; margin-bottom: 20px;">
+                        <h6 id="contactus">Contact Us</h6>
+                        <div style="padding: 20px;">
+                            <input id="contact" class="form-control" type="text" placeholder="Enter Your Name">
+                            <input id="contact" class="form-control" type="tel" placeholder="Enter Your Mobile No">
+                            <input id="contact" class="form-control" type="email" placeholder="Enter Your Email Address">
+                            <input id="contact" class="form-control" type="text" placeholder="Enter Your Message or Query">
+                            <button id="contact" class="btn btn-primary btn-block">Send!</button>
+                            <div style="background-color: black; margin-top: 30px; color: white;">
+                                <h6 id="createcard">UCSI || Create Your Card Now || 2020</h6>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-4">
+                <!--Rightcol-->
+            </div>
+        </div>
+    </div> 
+    <footer>
+        <div>
+            <ol class="breadcrumb">
+                <li id="item" class="breadcrumb-item"><a style="color: blue; text-decoration: none;" href="#home"><span class="fa fa-home"></span> Home</a></li>
+                <li id="item" class="breadcrumb-item"><a style="color: blue; text-decoration: none;" href="#aboutus"> About Us</a></li>
+                <li id="item" class="breadcrumb-item"><a style="color: blue; text-decoration: none;" href="#shoponline"><span class="fa fa-shopping-cart"></span> Shop Online</a></li>
+                <li id="item" class="breadcrumb-item"><a style="color: blue; text-decoration: none;" href="#"><span class="fa fa-image"></span> Gallery</a></li>
+                <li id="item" class="breadcrumb-item"><a style="color: blue; text-decoration: none;" href="#contactus"><span class="fa fa-mobile"></span> Contact Us</a></li>
+            </ol>
+        </div>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-image: url("../../images/digitalbackground2.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    margin-top: 40px;
+}
+.card{
+    width: 350px;
+    height: 750px;
+    background-image: url("../../images/bg2.png");
+    margin-bottom: 10px;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    border: 10px solid;
+}
+.card-title{
+    color: white;
+}
+.card-subtitle{
+    color: white;
+}
+#inline{
+    text-align: center;
+}
+hr{
+    background-color: orange;
+    width: 300px;
+    height: 140px;
+}
+#btn{
+    border-radius: 15px;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.inline>button>a{
+    color: white;
+}
+.inline>button>a:hover{
+    text-decoration: none;
+}
+.card-body{
+    margin-top: -10px;
+}
+#icon{
+    border-radius: 20px;
+    float: left;
+}
+#label{
+    margin-left: 20px;
+}
+#emaillabel{
+    margin-left: 20px;
+}
+#websitelabel{
+    margin-left: 20px;
+}
+.bodyinfo{
+    margin-top: 20px;
+    color: white;
+}
+#save-share{
+    margin-top: 20px;
+}
+#save{
+    width: 159px;
+}
+#share{
+    width: 141px;
+}
+#qrcode{
+    background-color: #354CE3;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+#aboutus{
+    background-color: #354CE3;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+#shop-store{
+    background-color: #354CE3;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+.card2{
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 27px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+#fromourstore{
+    margin-left: 80px;
+}
+#contactus{
+    background-color: #354CE3;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+#contact{
+    margin-bottom: 10px;
+}
+#createcard{
+    color: white;
+    padding: 5px;
+    height: 40px;   
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "";
+}
