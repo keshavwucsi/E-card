@@ -1,0 +1,99 @@
+body{
+    background-image: url("../../images/digitalbackground2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card-header{
+    background-image: url("../../images/restback2.jpg");
+    background-size: cover;
+    height: 220px;
+}
+.card{
+    width: 350px;
+    height: 660px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-img-top{
+    margin-top: 68px;
+    text-align: center;
+    background-size: contain;
+}
+#img-head{
+    border-radius: 100%;
+    border: 1px solid darkcyan;
+}
+.card-title{
+    color: orange;
+}
+.card-subtitle{
+    color: white;
+}
+.card-title,.card-subtitle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.card-body{
+    background-color: #262626;
+}
+#anchoricon{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+#share{
+    width: 150px;
+}
+#scan{
+    width: 150px;
+}
+#share:hover{
+    color: white;
+}
+#scan:hover{
+    color: white;
+}
+#footer-card{
+    background-color: #262626;
+}
+#hrline{
+    width: 250px;
+    background-color: orange;
+}
+#qrcode{
+    background-color: #262626;
+    color: orange;
+    padding: 5px;
+    height: 40px;
+}
+#aboutus{
+    background-color: #262626;
+    color: orange;
+    padding: 5px;
+    height: 40px;
+}
+#contactus{
+    background-color: #262626;
+    color: orange;
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+}
+#contact{
+    margin-bottom: 10px;
+}
+#createcard{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height: 40px;   
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "";
+}

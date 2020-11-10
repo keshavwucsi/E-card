@@ -5,6 +5,14 @@
         <link rel="stylesheet" href="../UCSI/styles/card2.css">
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../fonts/css/all.css">
+        <style>
+            .breadcrumb-item+.breadcrumb-item::before{
+                content: "";
+            }    
+            #item{
+                margin-left: 140px;
+            }
+        </style>    
     </head>
     <body>
         <div class="container">
@@ -14,7 +22,7 @@
                 </div>
                 <div class="col-4">
                     <div class="div1">
-                        <div class="card">
+                        <div id="home" class="card">
                             <div class="card-header">
                                 <div class="card-img-top">
                                     <img id="img-head" src="../images/card2logo.PNG" alt="logo" width="180px" height="180px">
@@ -87,5 +95,16 @@
                 </div>
             </div>     
         </div>
+        <footer>
+            <div>
+                <ol class="breadcrumb">
+                    <li id="item" class="breadcrumb-item"><a style="color: darkcyan; text-decoration: none;" href="#home"><span class="fa fa-home"></span> Home</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: darkcyan; text-decoration: none;" href="#aboutus"> About Us</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: darkcyan; text-decoration: none;" href="#shoponline"><span class="fa fa-shopping-cart"></span> Shop Online</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: darkcyan; text-decoration: none;" href="#"><span class="fa fa-image"></span> Gallery</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: darkcyan; text-decoration: none;" href="#contactus"><span class="fa fa-mobile"></span> Contact Us</a></li>
+                </ol>
+            </div>
+        </footer> 
     </body>
 </html>

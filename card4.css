@@ -1,0 +1,118 @@
+body{
+    background-image: url("../../images/digitalbackground2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.card{
+    width: 350px;
+    margin-top: 20px;
+    height: 710px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-header{
+    background-image: url("../../images/hospital.PNG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img-head{
+    border-radius: 100%;
+    border: 1px solid darkred;
+    margin-top: 80px;
+}
+.card-body{
+    background-image: url("../../images/medical1.jpg");
+}
+.card-title{
+    color: darkred;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-subtitle{
+    color:black;
+    font-weight: bold;
+}
+#hrline{
+    width: 250px;
+    background-color: darkred;
+}
+.labelinfo1{
+    margin-left: 33px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.labelinfo2{
+    margin-left: 30px;
+    font-size: 22px;
+    color: darkred;
+    font-weight: bold;
+}
+.labelinfo3{
+    margin-left: 26px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.labelinfo4{
+    margin-left: 27px;
+    font-size: 22px;
+    color: darkred;
+    font-weight: bold;
+}
+.labelinfo5{
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#anchoricon{
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#share{
+    width: 150px;
+    background-color: darkred;
+    color: white;
+}
+#scan{
+    width: 150px;
+    background-color: darkred;
+    color: white;
+}
+#qrcode{
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+#aboutus{
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+#contactus{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+}
+#contact{
+    margin-bottom: 10px;
+}
+#contactsend{
+    margin-bottom: 10px;
+    background-color: darkred;
+    color: white;
+}
+#createcard{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height: 40px;   
+}
