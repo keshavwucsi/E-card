@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visiting card Template</title>
+        <link rel="stylesheet" href="../UCSI/styles/card5.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../fonts/css/all.css">
+        <style>
+            .breadcrumb-item+.breadcrumb-item::before{
+                content: "";
+            }    
+            #item{
+                margin-left: 140px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <!--Left Col-->
+                </div>
+                <div class="col-4">
+                    <div id="home" class="card">
+                        <div class="card-header" style="text-align: center;">
+                            <div class="card-img-top">
+                                <img id="img-head" src="../images/weblogo3.PNG" alt="image" width="150px" height="150px">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div style="text-align: center;">
+                                <h3 class="card-title">NAME SURNAME</h3>
+                                <h4 class="card-subtitle">DESIGNATION</h4>
+                                <hr id="hrline">
+                            </div>
+                            <div style="margin-top: 30px;">
+                                <a id="anchoricon" href="#"><span class="fa fa-mobile"></span></a><label class="labelinfo1">Mobile No</label><br>
+                                <a id="anchoricon" href="#"><span style="color: green;" class="fab fa-whatsapp"></span></a><label class="labelinfo2">WhatsApp No</label><br>
+                                <a id="anchoricon" href="#"><span class="fa fa-mail-bulk"></span></a><label class="labelinfo3">Example@mail.com</label><br>
+                                <a id="anchoricon" href="#"><span style="color: green;" class="fa fa-directions"></span></a><label class="labelinfo4">Direction</label><br>
+                                <a id="anchoricon" href="#"><span class="fa fa-directions"></span></a><label class="labelinfo5">www.Website.com</label>
+                            </div>
+                            <div>
+                                <div style="margin-top: 40px; margin-bottom: 15px; " class="inline">
+                                    <button id="share" class="btn ">Share <span class="fa fa-share"></span></button>
+                                    <button id="scan" class="btn ">Scan <span class="fa fa-qrcode"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background-color: white; text-align: center;">
+                        <h6 id="qrcode">Scan QR Code to downlaod the content details</h6>
+                        <div>
+                            <img  src="../images/qrcode.jpg" width="80px" height="80px" alt="QR Code">
+                        </div>
+                    </div>
+                    <div style="background-color: white; text-align: center; margin-top: 10px;">
+                        <h6 id="aboutus">About Us</h6>
+                        <div>
+                            <p>2020</p>
+                            <p>IT Support, Web Developemt, Digital Marketing</p>
+                        </div>      
+                    </div>
+                    <div style="background-color: white; margin-top: 10px; margin-bottom: 20px;">
+                        <h6 id="contactus">Contact Us</h6>
+                        <div style="padding: 20px;">
+                            <input id="contact" class="form-control" type="text" placeholder="Enter Your Name">
+                            <input id="contact" class="form-control" type="tel" placeholder="Enter Your Mobile No">
+                            <input id="contact" class="form-control" type="email" placeholder="Enter Your Email Address">
+                            <input id="contact" class="form-control" type="text" placeholder="Enter Your Message or Query">
+                            <button id="contactsend" class="btn btn-block">Send!</button>
+                            <div style="background-color: black; margin-top: 30px; color: white;">
+                                <h6 id="createcard"><a href="#" style="color: white;">Create Your Card Now</a></h6>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">\
+                    <!--Right Col-->
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <ol class="breadcrumb">
+                    <li id="item" class="breadcrumb-item"><a style="color: green; text-decoration: none;" href="#home"><span class="fa fa-home"></span> Home</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: green; text-decoration: none;" href="#aboutus"> About Us</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: green; text-decoration: none;" href="#shoponline"><span class="fa fa-shopping-cart"></span> Shop Online</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: green; text-decoration: none;" href="#"><span class="fa fa-image"></span> Gallery</a></li>
+                    <li id="item" class="breadcrumb-item"><a style="color: green; text-decoration: none;" href="#contactus"><span class="fa fa-mobile"></span> Contact Us</a></li>
+                </ol>
+            </div>
+        </footer>
+    </body>
+</html>
