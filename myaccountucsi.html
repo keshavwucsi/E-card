@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Account</title>
+        <link rel="stylesheet" href="../UCSI/styles/myaccountucsi.css">
+        <link rel="stylesheet" href="../fonts/css/all.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            .breadcrumb-item+.breadcrumb-item::before{
+             content: " ";
+            }
+            .breadcrumb{
+                background-color: darkcyan;
+            }
+            #leftdiv{
+                background-color: darkcyan;
+                height: 90px;
+                margin-left: -20px;
+            }
+            #leftdivone{
+                background-color: black;
+                height: 6px;
+                margin-left: -20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <div id="leftdiv">    
+                    </div>
+                    <div id="leftdivone">
+                    </div>
+                    <div>
+                        <ul id="leftlist">
+                            <li id="list"><i class="fas fa-columns"></i><a  href="#">Dashboard</a></li>
+                            <li id="list"><sapn class="fa fa-shopping-cart"></sapn><a href="#">Add to Card </a></li>
+                            <li id="list"><span class="fa fa-edit"></span><a href="#">Edit Profile</a></li>
+                            <li id="list"><i class="fas fa-question"></i><a href="#">Help & Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div>
+                        <ul class="breadcrumb">
+                            <li style="margin-left: 800px;" class="breadcrumb-item"><a id="anchorlink" href="#">Manage Cards</a></li>
+                            <li class="breadcrumb-item"><a id="anchorlink" href="#">My Account</a></li>
+                            <li class="breadcrumb-item"><a id="anchorlink" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                    <h1>Select Your Card</h1>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="../images/card1scr.PNG" height="600px" width="300px">
+                            <div>
+                                <label>Card-1</label><br>
+                                <button style="margin-top: 5px;" class="btn btn-primary"><span class="fa fa-shopping-cart"></span>Add to Card</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="../images/card2src.PNG" height="600px" width="300px">
+                            <div>
+                                <label>Card-2</label><br>
+                                <button style="margin-top: 5px;" class="btn btn-primary"><span class="fa fa-shopping-cart"></span>Add to Card</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img  src="../images/card3src.PNG" height="600px" width="300px">
+                            <div>
+                                <label>Card-3</label><br>
+                            </div>
+                            <div>
+                                <button  style="margin-top: 5px;" class="btn btn-primary"><span class="fa fa-shopping-cart"></span>Add to Card</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 60px;">
+                        <div class="col-4">
+                            <img src="../images/card4src.PNG" height="600px" width="300px">
+                            <div>
+                                <label>Card-4</label><br>
+                                <button style="margin-top: 5px;" class="btn btn-primary"><span class="fa fa-shopping-cart"></span>Add to Card</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="../images/card5src.PNG" height="600px" width="300px">
+                            <div>
+                                <label>Card-5</label><br>
+                                <button style="margin-top: 5px;" class="btn btn-primary"><span class="fa fa-shopping-cart"></span>Add to Card</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="../images/card6src.PNG" height="600px" width="300px">
+                            <div>
+                                <label>Card-6</label><br>
+                                <div>
+                                    <button style="margin-top: 5px;" class="btn btn-primary"><span class="fa fa-shopping-cart"></span> add to card</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
